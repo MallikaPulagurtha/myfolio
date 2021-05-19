@@ -18,7 +18,7 @@ function App() {
       <Router>
         {/* <Navbar></Navbar> */}
         <Switch>
-          <Route path="/" exact="true"><Welcome /></Route>
+          <Route path="/myfolio" exact="true"><Welcome /></Route>
         </Switch>
 
       </Router>
