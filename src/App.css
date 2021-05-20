@@ -363,13 +363,13 @@ a {
   background-size: cover;
 }
 
-.main {
+.name {
   color: white;
   font-size: 45px;
   text-align: center;
   margin: 10px;
 }
-.sub {
+.des {
   color: white;
   font-size: 18px;
   text-align: center;

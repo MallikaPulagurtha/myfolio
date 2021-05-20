@@ -20,9 +20,9 @@ function Welcome() {
 
             {/* <!-- ======= Hero Section ======= --> */}
             <section id="hero" class="d-flex flex-column align-items-center justify-content-center Title">
-                <div className="main">Mallika Pulagurtha</div>
+                <div className="name">Mallika Pulagurtha</div>
                 <hr />
-                <div className="sub">Ay! I'm on vacation, every single day, cause I love my occupation.</div>
+                <div className="des">Ay! I'm on vacation, every single day, cause I love my occupation.</div>
                 <div className="row calltoaction">
                     <div className="col col-lg-6 center"><a href="https://drive.google.com/file/d/1cjBmeefeDuyjMgsoH5DBh8PPeH7v1E7D/view?usp=sharing" target="_blank"><button className="btn btn-light text-white bg-transparent mainbuttons m-2">View Resume</button></a></div>
                     <div className="col col-lg-6 center"><a href="#projects"><button className="btn btn-light text-dark mainbuttons m-2">Go to Projects</button></a></div>
