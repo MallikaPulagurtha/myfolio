@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import myphoto from './images/mallika_photo.jpg';
 
 function Welcome() {
 
@@ -34,7 +35,7 @@ function Welcome() {
                 <section id="about" class="about">
                     <div class="container">
                         <div class="row">
-                            <div className="col col-lg-4 center"><img className="mypicture center center2" src={process.env.PUBLIC_URL + "./mallika_photo.jpg"} /></div>
+                            <div className="col col-lg-4 center"><img className="mypicture center center2" src={myphoto} /></div>
                             <div className="col col-lg-8">
                                 <div class="d-flex align-items-stretch">
                                     <div class="content d-flex flex-column justify-content-center">
@@ -43,10 +44,11 @@ function Welcome() {
                                         <p class="myintro">The creative little one, who loves coding and designing anything and everything beautifully, minimalistic, promissing effortless handling, yet unique at the same time.</p><br />
                                         {/* <p class="myintro"><i>"I can't imagine anything worthwhile than doing what I love the most!"</i></p> */}
                                         <div className="myskills">
-                                            <img className="myskillset" src={process.env.PUBLIC_URL + "./writing.png"} />
-                                            <img className="myskillset" src={process.env.PUBLIC_URL + "./painting.png"} />
-                                            <img className="myskillset" src={process.env.PUBLIC_URL + "./designing.png"} />
-                                            <img className="myskillset" src={process.env.PUBLIC_URL + "./creative.png"} />
+                                            <div className="myskillset myskillset1"></div>
+                                            <div className="myskillset myskillset2"></div>
+                                            <div className="myskillset myskillset3"></div>
+                                            <div className="myskillset myskillset4"></div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -91,7 +93,7 @@ function Welcome() {
                         <div class="row portfolio-container">
                             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div class="portfolio-wrap">
-                                    <img className="projectdisplay" src={process.env.PUBLIC_URL + "./pizza.jpg"} />
+                                    <div className="projectdisplay projectdisplay1"></div>
                                     <div class="portfolio-info">
                                         <h4>PIZZA DELIVERY</h4>
                                         <p className="projectdes">Fully responsive web application with a personal user dashboard, products that are customisable for the best experience ever!</p>
@@ -103,7 +105,7 @@ function Welcome() {
                             </div>
                             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div class="portfolio-wrap">
-                                    <img className="projectdisplay" src={process.env.PUBLIC_URL + "./ecommerce.jpg"} />
+                                    <div className="projectdisplay projectdisplay2"></div>
                                     <div class="portfolio-info">
                                         <h4>E-COMMERCE</h4>
                                         <p className="projectdes">An e-commerce website, wherein users can login/register and can buy varied styles of art, all the way from sketches to silhouettes.</p>
@@ -115,7 +117,7 @@ function Welcome() {
                             </div>
                             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div class="portfolio-wrap">
-                                    <img className="projectdisplay" src={process.env.PUBLIC_URL + "./shorturl.jpg"} />
+                                    <div className="projectdisplay projectdisplay3"></div>
                                     <div class="portfolio-info">
                                         <h4>URL SHORTENER</h4>
                                         <p className="projectdes">An application that converts the long URL porvided by the user into a substantially shorter link that directs to the required page.</p>
@@ -128,7 +130,7 @@ function Welcome() {
                             </div>
                             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div class="portfolio-wrap">
-                                    <img className="projectdisplay" src={process.env.PUBLIC_URL + "./spotify.jpg"} />
+                                    <div className="projectdisplay projectdisplay4"></div>
                                     <div class="portfolio-info">
                                         <h4>SPOTIFY CLONE</h4>
                                         <p className="projectdes">Extracted my playlist from the Spotify app using Api following the guidelines provided and designed the Interface.</p>
