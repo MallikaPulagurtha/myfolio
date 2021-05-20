@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myfolio/static/css/main.ea7eefa8.chunk.css",
+    "main.css": "/myfolio/static/css/main.53484824.chunk.css",
     "main.js": "/myfolio/static/js/main.8a598983.chunk.js",
     "main.js.map": "/myfolio/static/js/main.8a598983.chunk.js.map",
     "runtime-main.js": "/myfolio/static/js/runtime-main.9190abd0.js",
@@ -12,7 +12,7 @@
     "static/js/3.dd1eebc7.chunk.js.map": "/myfolio/static/js/3.dd1eebc7.chunk.js.map",
     "index.html": "/myfolio/index.html",
     "static/css/2.f7d5f77a.chunk.css.map": "/myfolio/static/css/2.f7d5f77a.chunk.css.map",
-    "static/css/main.ea7eefa8.chunk.css.map": "/myfolio/static/css/main.ea7eefa8.chunk.css.map",
+    "static/css/main.53484824.chunk.css.map": "/myfolio/static/css/main.53484824.chunk.css.map",
     "static/js/2.faced112.chunk.js.LICENSE.txt": "/myfolio/static/js/2.faced112.chunk.js.LICENSE.txt",
     "static/media/App.css": "/myfolio/static/media/writing.3c38fb23.png",
     "static/media/mallika_photo.5a87cdb9.jpg": "/myfolio/static/media/mallika_photo.5a87cdb9.jpg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.9190abd0.js",
     "static/css/2.f7d5f77a.chunk.css",
     "static/js/2.faced112.chunk.js",
-    "static/css/main.ea7eefa8.chunk.css",
+    "static/css/main.53484824.chunk.css",
     "static/js/main.8a598983.chunk.js"
   ]
 }
