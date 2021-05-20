@@ -381,7 +381,7 @@ hr {
   height: 3px !important;
   background-color: white;
   border: 0;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 #hero {
@@ -430,7 +430,79 @@ hr {
     margin-bottom: 30px;
   }
 }
+/* Style The Dropdown Button */
 
+.edu {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.eduarrows {
+  padding-left: 5px;
+  color: #305cd4;
+}
+.education {
+  color: #345676;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.dropbtn {
+  margin: 20px;
+  background-color: white !important;
+  border: 1px solid #305cd4 !important;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  max-height: 10vh;
+  width: 230px;
+  color: black;
+  border-radius: 5px;
+}
+.dropbtn:hover {
+  transition: 0.3s;
+  background-color: #305cd4 !important;
+  color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  /* position: absolute; */
+  margin: 0 20px 20px 20px;
+  background-color: #f9f9f9;
+  min-height: 10vh;
+  width: 230px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #305cd4;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -1029,7 +1101,7 @@ section {
 }
 
 /* @media only screen and (max-width: 480px) {
-  .projectdisplay {
+  .filterapp {
     opacity: 0.4;
   }
   h4,
@@ -1283,8 +1355,8 @@ section {
 }
 
 .mainbuttons {
-  border-radius: 25px;
-  font-size: 20px;
+  /* border-radius: 25px; */
+  /* font-size: 20px; */
   min-height: 8vh;
   width: 200px;
 }

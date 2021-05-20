@@ -2,9 +2,9 @@ import React from "react"
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import myphoto from './images/mallika_photo.jpg';
+import { motion } from "framer-motion"
 
 function Welcome() {
-
     return (
         <>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -54,8 +54,49 @@ function Welcome() {
                                 </div>
                             </div>
                         </div>
+                        <div class="education center">
+                            <div>Education & Experience</div>
+                        </div>
+                        <div className="myskills center2">
+                            <div className="edu center2">
+                                <div class="dropdown">
+                                    <button class="dropbtn">Full Stack Trainee  <i class="fas fa-angle-down eduarrows"></i></button>
+                                    <div class="dropdown-content">
+                                        <p>At Guvi Geeks - Present (2020 Mar)</p>
+                                        <p>Expertised the MERN stack technologies,
+                                           developed and designed brilliant userfriendly websites.</p>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown">
+                                    <button class="dropbtn">B.E (8.13 cgpa) <i class="fas fa-angle-down eduarrows"></i></button>
+                                    <div class="dropdown-content">
+                                        <p>Electronics Engineering - (2016-2020)</p>
+                                        <p>Stanley College of Engineering and Technology for Women</p>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown">
+                                    <button class="dropbtn">Intermediate (95.7%) <i class="fas fa-angle-down eduarrows"></i></button>
+                                    <div class="dropdown-content">
+                                        <p>Narayana Junior College - (2014-2016)</p>
+
+                                    </div>
+                                </div>
+
+                                <div class="dropdown">
+                                    <button class="dropbtn">Tenth SSC (92.15%) <i class="fas fa-angle-down eduarrows"></i></button>
+                                    <div class="dropdown-content">
+                                        <p>MNR School <br />- (2013-2014)</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
+
+
 
                 {/* <!-- ======= Skills Section ======= --> */}
                 <section id="services" class="services section-bg">
@@ -83,6 +124,8 @@ function Welcome() {
                         </div>
                     </div>
                 </section>
+
+
 
                 {/* <!-- ======= Portfolio Section ======= --> */}
                 <section id="projects" class="portfolio section-bg">
@@ -144,6 +187,7 @@ function Welcome() {
                         </div>
                     </div>
                 </section >
+
 
                 {/* <!-- ======= Contact Section ======= --> */}
                 <section id="contact" class="contact section-bg">
